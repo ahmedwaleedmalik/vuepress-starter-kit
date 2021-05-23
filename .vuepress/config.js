@@ -1,5 +1,3 @@
-const { description } = require("../../package");
-
 module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
@@ -49,15 +47,18 @@ module.exports = {
         link: "https://v1.vuepress.vuejs.org",
       },
     ],
-    sidebar: {
-      "/guide/": [
-        {
-          title: "Guide",
-          collapsable: false,
-          children: ["", "using-vue"],
-        },
-      ],
-    },
+    sidebar: [
+      {
+        title: "Guide",
+        collapsable: false,
+        children: ["/content/guide/using-vue.md"],
+      },
+      {
+        title: "Config",
+        collapsable: true,
+        children: ["/content/config/node.md"],
+      },
+    ],
   },
 
   /**
