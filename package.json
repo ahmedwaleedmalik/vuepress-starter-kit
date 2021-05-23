@@ -1,0 +1,19 @@
+{
+  "name": "vuepress-starter-kit",
+  "version": "0.0.1",
+  "description": "A sample project to quickly get up and running with vuepress",
+  "main": "index.js",
+  "authors": {
+    "name": "Waleed Malik",
+    "email": "ahmedwaleedmalik@gmail.com"
+  },
+  "repository": "https://github.com/ahmedwaleedmalik/vuepress-starter-kit/vuepress-starter-kit",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}

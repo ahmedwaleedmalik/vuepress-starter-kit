@@ -1,0 +1,18 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: docs
+  labels:
+    app: docs
+    release: v0.0.1
+    appVersion: v0.0.1
+spec:
+  ports:
+    - name: http
+      protocol: TCP
+      port: 8080
+      targetPort: 8080
+  selector:
+    app: docs
+  type: ClusterIP
+  sessionAffinity: None
