@@ -1,0 +1,12 @@
+version: "3.3"
+
+services:
+  site:
+    image: ahmedwaleedmalik/vuepress-starter-kit
+    build:
+      context: .
+    command: server
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/src
