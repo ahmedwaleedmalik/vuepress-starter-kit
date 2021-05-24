@@ -1,6 +1,6 @@
 # vuepress-starter-kit
 
-A sample project to quickly get up and running with vuepress
+[WIP] A sample project to quickly get up and running with vuepress
 
 ## Local Development
 
