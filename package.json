@@ -37,14 +37,14 @@
     "lodash": "^4.17.21",
     "lodash.template": "^4.5.0",
     "svgo": "^2.3.0",
-    "vuepress": "1.8.2"
+    "vuepress": "1.9.7"
   },
   "devDependencies": {
-    "@vuepress/plugin-active-header-links": "1.8.2",
+    "@vuepress/plugin-active-header-links": "1.9.7",
     "@textlint-rule/textlint-rule-no-unmatched-pair": "1.0.8",
-    "@vuepress/plugin-back-to-top": "1.8.2",
-    "@vuepress/plugin-medium-zoom": "1.8.2",
-    "@vuepress/theme-vue": "1.8.2",
+    "@vuepress/plugin-back-to-top": "1.9.7",
+    "@vuepress/plugin-medium-zoom": "1.9.7",
+    "@vuepress/theme-vue": "1.9.7",
     "vuepress-plugin-container": "2.1.5",
     "remark-cli": "9.0.0",
     "remark-lint": "8.0.0",
