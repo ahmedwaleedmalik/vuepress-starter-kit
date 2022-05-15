@@ -2702,7 +2702,7 @@ chalk@^3.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chalk@^4.0.0:
+chalk@^4.0.0, chalk@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
   integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
@@ -2714,14 +2714,6 @@ chalk@^4.1.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.1.tgz#c80b3fab28bf6371e6863325eee67e618b77e6ad"
   integrity sha512-diHzdDKxcU+bAsUboHLPEDQiw0qEe0qd7SYUn3HgcFlWgbDcfLGswOHYeGrHKzG9z6UYf01d9VFMfZxPM1xZSg==
-  dependencies:
-    ansi-styles "^4.1.0"
-    supports-color "^7.1.0"
-
-chalk@^4.1.2:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
-  integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
@@ -9698,10 +9690,10 @@ textlint-rule-helper@^2.1.1, textlint-rule-helper@^2.2.0:
     structured-source "^3.0.2"
     unist-util-visit "^1.1.0"
 
-textlint-rule-stop-words@2.0.9:
-  version "2.0.9"
-  resolved "https://registry.yarnpkg.com/textlint-rule-stop-words/-/textlint-rule-stop-words-2.0.9.tgz#36209f289857055eb6a09cf9e6997fd779d74378"
-  integrity sha512-UW7nWrqBUHfz/sRLTFo40BNjwXOiXSHg00TJuYY4GVDQtsWRLyAsOnXSBqClP4i6wl7ejMBeYmB5mfllYAYMgA==
+textlint-rule-stop-words@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/textlint-rule-stop-words/-/textlint-rule-stop-words-3.0.1.tgz#41d437239ea1bdd221eb7d52b3426f7965df1bd0"
+  integrity sha512-gO4N3OnPLvE6+fvJ1Y5m8MzDVrqMEWzW8pTGMXjL8VAXmQkD6YQ9eDMbsVN0/DzEe8tcsBqNgA/iIrQ64oECuQ==
   dependencies:
     lodash "^4.17.15"
     split-lines "^2.0.0"
